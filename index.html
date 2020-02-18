@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>自己紹介</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>About Yoshihiro Sugimoto</h1>
+    <nav>
+        <ul class="menu">
+          <li class="active" data-id="profile"><a href="#" class="active" data-id="profile">プロフィール</a></li>
+          <li data-id="job"><a href="#" data-id="job">職歴</a></li>
+          <li data-id="portfolio"><a href="#" data-id="portfolio">ポートフォリオ</a></li>
+          <li data-id="contact"><a href="#" data-id="contact">お問い合わせ</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section class="cont active" id="profile">
+      <p class="img_wrapper"><img src="img/myphoto.png" alt="椙本恵広の写真" width="140" height="175">
+      </p>
+      <div class="subj">
+        <div class="flr">
+          <table>
+            <tr>
+              <th>名前：</th><td>椙本　恵広<br>(すぎもと　よしひろ)</td>
+            </tr>
+            <tr>
+              <th>年齢：</th><td>32歳　1987年／7月生まれ</td>
+            </tr>
+            <tr>
+              <th>出身：</th><td>山口県萩市</td>
+            </tr>
+            <tr>
+              <th>趣味：</th><td>自転車、古民家カフェ、食器</td>
+            </tr>
+          </table>
+          <div class="btn_wrapper"><button class="btn">詳細</button></div>
+          <div class="detail hidden">
+
+            <p>高校時代、職業訓練、独学と３度にわたりHTML、CSSを学習する。</p>
+
+            <p>独学の時に新たにJavaScriptも学習し現在にいたる。</p>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <section class="cont" id="job">
+    <h1>職歴（バイト、派遣を含む）</h1>
+    <ul class="joblist">
+      <li>平成18年4月　山文商事株式会社　正社員として入社</li>
+      <li>平成21年3月　退社</li>
+      <li>平成24年4月　株式会社金宝堂　正社員として入社</li>
+      <li>平成24年6月　退社</li>
+      <li>平成24年7月　株式会社丸井商会　アルバイトとして入社</li>
+      <li>平成25年8月　退社</li>
+      <li>平成25年9月　株式会社アイクロス　アルバイトとして入社</li>
+      <li>平成27年10月　退社</li>
+      <li>平成27年10月　大江戸温泉物語　鬼怒川御苑　派遣として入社</li>
+      <li>平成28年10月　退社</li>
+      <li>平成28年11月　株式会社中の坊　瑞苑　派遣として入社</li>
+      <li>平成29年1月　退社</li>
+      <li>平成29年2月　合同会社OKマート　アルバイトとして入社</li>
+      <li>平成31年2月　退社</li>
+      <li>令和元年4月　大江戸温泉物語　鬼怒川御苑　派遣として入社</li>
+      <li>令和2年2月　退社</li>
+      <li>現在に至る</li>
+    </ul>
+  </section>
+
+  <section class="cont" id="portfolio">
+    <h1>現在製作中です</h1>
+  </section>
+
+  <section class="cont" id="contact">
+    <p>ご意見、ご感想をお寄せください。</p>
+    <form method="post">
+      <p><label for="lname">お名前：</label>
+        <input type="text" name="name" value="" id="lname">
+      </p>
+      <p><label for="mailaddress">メールアドレス：</label>
+      <input type="text" name="mail" value="" id="mailaddress">
+      </p>
+      <p><label for="message">メッセージ：</label>
+      <textarea id="message" name="textarea"></textarea>
+      </p>
+      <p>
+        <button type="submit" class="fbtn">送信</button>
+      </p>
+    </form>
+  </section>
+
+  <div class="ft">
+    <footer><small>Copyright 2019 Yoshihiro Sugimoto</small></footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
